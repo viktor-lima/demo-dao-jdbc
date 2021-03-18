@@ -20,6 +20,10 @@ public class Program2 {
 			System.out.println(obj);
 		}
 		
+		System.out.println("\n========== TEST 1 findById ============");
+		Department obj = new Department(null, "Musics");
+		depDao.insert(obj);
+		System.out.println("Department insert completed");
 	}
 
 }
